@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(manipalBlur.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+<body>
+    <ul>
+        <li><a href="w3.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <h1 class="contact-header"> Contact Us</h1>
+      <!--     <div class="container"> -->
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Department</label>
+          <select id="country" name="country">
+            <option value="none">None</option>
+            <option value="bca">Bachelors of Computer Applications</option>
+            <option value="mca">Masters of Computer Applications</option>
+            <option value="bsccs">Bachelors of Science in Computer Science </option>
+          </select>
+      
+          <label for="subject">Please feel free to ask the querries</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
